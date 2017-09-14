@@ -1,0 +1,23 @@
+git add file
+git commit -m "remark"
+git status
+ 
+--新建feature-vulcan分支
+git checkout -b feature-vulcan
+
+--查看当前分支情况
+git branch
+
+--切换到master分支
+git checkout master
+
+--合并feature-vulcan分支到master分支
+git merge feature-vulcan
+
+--删除feature-vulcan分支
+git branch -d feature-vulcan
+--强制删除feature-vulcan分支
+git branch -D feature-vulcan
+
+--提交到远程库
+git push -u origin master
