@@ -1,5 +1,7 @@
 git add file
 git commit -m "remark"
+
+--查看当前暂存区情况
 git status
  
 --新建feature-vulcan分支
